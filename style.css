@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    p{
+        background-color: yellow;
+    }
+@media screen and (width < 500px){
+    p{
+        text-align: center;
+    }
+}
+@media  and and (width > 500px){
+    p{
+        text-align: left;
+    }
+}
